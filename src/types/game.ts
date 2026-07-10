@@ -299,7 +299,7 @@ export interface Challenge {
   id: string;
   title: string;
   description: string;
-  choices: SituationChoice[];
+  choices: Choice[];
 }
 
 export interface Choice {

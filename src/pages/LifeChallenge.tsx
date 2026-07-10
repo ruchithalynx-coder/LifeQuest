@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AlertCircle, ArrowRight } from 'lucide-react'
-import { Challenge, Choice } from '../types/game'
+import { Challenge } from '../types/game'
 
 export default function LifeChallenge() {
   const navigate = useNavigate()
